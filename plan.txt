@@ -1,2 +1,17 @@
 1. When you search up a name of someone, you output a graph with trends of their sentiments over time. You could also try identify what exactly happeed to that persons as well to determint why there was a change in sentiment 
 2. Track events as well. You can enter an event and you can track the sentiment around that event.
+
+
+Explore sentiment analysis on comments from Reddit related to a person or event. Reddit has various subreddits where discussions take place.
+Utilize the Reddit API (PRAW library in Python) to fetch comments from relevant subreddits.
+Analyze the sentiment of comments and identify patterns or events that might influence sentiment.
+Create visualizations to showcase sentiment trends over time.
+Implementation Steps:
+
+Install the PRAW library (pip install praw) for Reddit API access.
+Retrieve comments from relevant subreddits using the Reddit API.
+Perform sentiment analysis on comments using NLP tools.
+Visualize sentiment trends over time.
+
+
+Maybe search for trending topics within a subreddit and then conduct sentiment analysis on the topic. If there are any changes to the sentiment, identify patterns or events that could have caused that.
