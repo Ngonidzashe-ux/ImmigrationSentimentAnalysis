@@ -1,0 +1,2 @@
+1. When you search up a name of someone, you output a graph with trends of their sentiments over time. You could also try identify what exactly happeed to that persons as well to determint why there was a change in sentiment 
+2. Track events as well. You can enter an event and you can track the sentiment around that event.
