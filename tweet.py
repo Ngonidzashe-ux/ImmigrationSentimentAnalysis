@@ -8,16 +8,13 @@ from dotenv import load_dotenv, find_dotenv
 #load the environment variables
 _ = load_dotenv(find_dotenv())
 
-api_key="9WAG5MiJzOPeYQ9h2LNlpmDKb"
-api_key_secret="SnSPu8CWoreRZwdCObzrUiBzZwA3fzYpBuSUIm9ilchxwWPQIi"
-access_token="1428601521718153218-7sAPkiKtBQBcXSUMlnRacZHEkQ9IKz"
-access_token_secret="7QrsYFUxyYZFhRixjffzOmGVoStzAF9FG1DGlzKXMgmVc"
 
 #retrieve credentials from environment variables
-# api_key = os.environ.get('X_API_KEY')
-# api_key_secret = os.environ.get('X_API_SECRET_KEY')
-# access_token = os.environ.get('X_ACCESS_TOKEN')
-# access_token_secret = os.environ.get('X_ACCESS_TOKEN_SECRET_SECRET')
+api_key = os.environ.get('X_API_KEY')
+api_key_secret = os.environ.get('X_API_SECRET_KEY')
+access_token = os.environ.get('X_ACCESS_TOKEN')
+access_token_secret = os.environ.get('X_ACCESS_TOKEN_SECRET_KEY')
+
 
 #pass the credentials in our twitter api to authenticate into your developer account
 auth = tweepy.OAuth1UserHandler(api_key, api_key_secret, access_token, access_token_secret)
