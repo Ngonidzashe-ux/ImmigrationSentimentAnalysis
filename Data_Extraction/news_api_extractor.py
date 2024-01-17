@@ -72,20 +72,20 @@ def extract_data_and_store(location, topics):
 # ])
 
 #SECOND QUERY: 1000: Up to 4169 line
-extract_data_and_store(location='Hong Kong', topics=[
-    'immigrant',
-    'immigrant employment',
-    'refugees', 'domestic helpers',
-    'illegal immigrants', 'legal immigrants',
-    'culture shock', 'language', 'cantonese'])
-
-
-# #THIRD QUERY: 1: To line 4170
 # extract_data_and_store(location='Hong Kong', topics=[
-#     'immigrants in Hong Kong',
-#     'refugees in Hong Kong', "domestic helpers in Hong Kong"
+#     'immigrant',
+#     'immigrant employment',
+#     'refugees', 'domestic helpers',
+#     'illegal immigrants', 'legal immigrants',
+#     'culture shock', 'language', 'cantonese'])
 
-# ])
+
+#THIRD QUERY: 1: To line 4170
+extract_data_and_store(location='Hong Kong', topics=[
+    'housing in Hong Kong',
+    'Hong Kong', "domestic helpers in Hong Kong"
+
+])
 
 #FOURTH QUERY: 1000: To line 4176
 # extract_data_and_store(location='Hong Kong', topics=[
