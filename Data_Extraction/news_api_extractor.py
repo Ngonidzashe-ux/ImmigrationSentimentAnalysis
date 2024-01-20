@@ -83,7 +83,7 @@ def extract_data_and_store(location, topics):
 #THIRD QUERY: 1: To line 4170
 extract_data_and_store(location='Hong Kong', topics=[
     'housing in Hong Kong',
-    'Hong Kong', "domestic helpers in Hong Kong"
+    'Hong Kong', "domestic helpers in Hong"
 
 ])
 
