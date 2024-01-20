@@ -18,9 +18,7 @@ combined_df = pd.concat([pd.read_excel(file, header=None, names=['content']) for
 combined_df = combined_df.drop_duplicates()
 
 # 3. Text Preprocessing
-# Download NLTK resources (use download_dir to avoid SSL issue)
-nltk.download('punkt', download_dir="/Users/ngoni/nltk_data")
-nltk.download('stopwords', download_dir="/Users/ngoni/nltk_data")
+
 
 # Tokenization, lemmatization, and removing stop words
 stop_words = set(stopwords.words('english'))
